@@ -7,8 +7,8 @@ import black_big from './assets/black_big.svg'
 import gold_big from './assets/gold_big.svg'
 function App() {
   return (
-    <div className="app">
-      <div className="container">
+    <div className="wrapper">
+      <div className="container__poker">
         <img className="chip__gold" src={gold_big} alt="Gold" />
         <img className="chip__black" src={black_big} alt="Black" />
         <h1 className="title">Join our exclusive tables from all over the world</h1>
@@ -24,7 +24,7 @@ function App() {
               <br />
               &private
             </h2>
-            <img />
+            
           </div>
           <div className="card__item">
             <img src={item2} />
@@ -33,7 +33,7 @@ function App() {
               <br />
               everything
             </h2>
-            <img />
+            
           </div>
           <div className="card__item">
             <img src={item3} />
@@ -42,7 +42,7 @@ function App() {
               <br />
               fair-play
             </h2>
-            <img />
+            
           </div>
         </div>
         <h1 className="description">How to play</h1>
